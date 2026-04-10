@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WLM Messenger</string>
+    <string name="login_title">Sign in to WLM</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login_error">Login failed</string>
+    <string name="network_error">Network unavailable</string>
+    <string name="server_error">Server error</string>
+    <string name="type_message">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="nudge">Nudge</string>
+    <string name="nudge_received">%1$s sent you a nudge!</string>
+    <string name="typing">%1$s is typing…</string>
+    <string name="contact_online">Online</string>
+    <string name="contact_away">Away</string>
+    <string name="contact_busy">Busy</string>
+    <string name="contact_brb">Be Right Back</string>
+    <string name="contact_phone">On the Phone</string>
+    <string name="contact_lunch">Out to Lunch</string>
+    <string name="contact_hidden">Appear Offline</string>
+    <string name="contact_idle">Idle</string>
+    <string name="contact_offline">Offline</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="block_contact">Block</string>
+    <string name="remove_contact">Remove</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="connection_lost">Connection lost, reconnecting…</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting…</string>
+    <string name="disconnected">Disconnected</string>
+</resources>
