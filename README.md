@@ -1,6 +1,7 @@
 # WLM Messenger — Android Client
 
 Modern Android messenger for Windows Live Messenger (MSNP18) protocol with custom servers.
+[![Build APK](https://github.com/angamer234k/wlm-android-fork/actions/workflows/build-apk.yml/badge.svg?branch=main)](https://github.com/angamer234k/wlm-android-fork/actions/workflows/build-apk.yml)
 
 ## Build via GitHub Actions
 
