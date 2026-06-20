@@ -26,7 +26,6 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import dagger.Lazy
 import kotlinx.coroutines.Dispatchers
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -69,23 +68,23 @@ object DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideDatabase(@ApplicationContext context: Context): Lazy<WlmDatabase> {
-        return lazy { WlmDatabase.getInstance(context) }
+    fun provideDatabase(@ApplicationContext context: Context): WlmDatabase {
+        return WlmDatabase.getInstance(context)
     }
 
     @Provides
-    fun provideContactDao(db: Lazy<WlmDatabase>): ContactDao {
-        return db.get().contactDao()
+    fun provideContactDao(db: WlmDatabase): ContactDao {
+        return db.contactDao()
     }
 
     @Provides
-    fun provideMessageDao(db: Lazy<WlmDatabase>): MessageDao {
-        return db.get().messageDao()
+    fun provideMessageDao(db: WlmDatabase): MessageDao {
+        return db.messageDao()
     }
 
     @Provides
-    fun provideGroupDao(db: Lazy<WlmDatabase>): GroupDao {
-        return db.get().groupDao()
+    fun provideGroupDao(db: WlmDatabase): GroupDao {
+        return db.groupDao()
     }
 }
 
