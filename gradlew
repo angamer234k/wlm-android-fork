@@ -16,7 +16,7 @@ APP_HOME=$(cd "$(dirname "$0")" && pwd)
 
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS='-Xmx64m -Xms64m'
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ]; then
